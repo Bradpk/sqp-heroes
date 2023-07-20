@@ -7,3 +7,13 @@ def test():
     print("""HI ME OLD MATE""")
 
 test()
+
+def start():
+    print("""
+          1: Create
+          2: Read
+          3: Update
+          4: Delete
+          """)
+    
+start()
