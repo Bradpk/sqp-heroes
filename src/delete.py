@@ -7,6 +7,6 @@ def delete_hero(hero_name):
         """
     execute_query(query,(hero_name,))
 
-delete_hero("Roy")
+delete_hero("Ben")
 
 #Add the interactive terminal stuff later. Just make sure the basic functions work first!
