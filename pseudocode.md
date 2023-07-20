@@ -1,7 +1,9 @@
 SQL Heroes Project 
 
+
 Description
 Create an interactive shell script with the help of python that helps superheroes stay in touch with their friends and keep track of supervillains through the terminal.
+
 
 MoSCoW
 
@@ -29,6 +31,16 @@ Could:
 Won't: 
 - A front end
 
+
+CRUD 
+
+Create: A hero 
+
+Read: The database 
+
+Update: One of the heros attributes. e.g name, power or whatever
+
+Delete: The hero from the database
 
 
 
