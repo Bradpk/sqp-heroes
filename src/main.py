@@ -7,7 +7,7 @@ from update import update_hero
 execute_query("SELECT * FROM heroes;")
 
 def start():
-    input("""
+    print("""
           So what are ya'll wanting to do? (Pick an option)
           
           1: Create a new hero
@@ -15,12 +15,12 @@ def start():
           3: Update a hero
           4: Delete a hero
           """)
-    input_menu()
+    menu()
+    
 start()
 
-
-def input_menu():
-    answer = input(" Pick a number ")
+def menu():
+    answer = input("Pick a number: ")
     if answer == "1": 
         create_hero()
     elif answer == "2":
@@ -29,4 +29,3 @@ def input_menu():
         update_hero()
     elif answer == "4":
         delete_hero()
-
