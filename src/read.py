@@ -1,6 +1,6 @@
 from database.connection import execute_query, create_connection
 
-def read_heroes():
+def read_hero():
     query = """
         SELECT name FROM heroes
     """ 
@@ -8,6 +8,6 @@ def read_heroes():
     for count, value in enumerate(names):
         print(f"{count + 1}: {value[0]}")
 
-read_heroes()
+read_hero()
 
 #Add the interactive terminal stuff later. Just make sure the basic functions work first!
