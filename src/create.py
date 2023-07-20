@@ -3,7 +3,7 @@ from database.connection import execute_query, create_connection
 def create_hero(name, about_me, biography):
     name = input("Hero's name? ")
     about_me = input("Tell me about your hero? ")
-    biography = input("Write a little bio? ")
+    biography = input("Write a little bio for your hero? ")
     query = """
         INSERT INTO heroes (name, about_me, biography)
         VALUES (%s, %s, %s)
