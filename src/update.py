@@ -10,6 +10,5 @@ def update_hero(current_name, new_name):
         """
     execute_query(query,(new_name, current_name))
 
-update_hero("Slogger", "Fish")
 
 #Add the interactive terminal stuff later. Just make sure the basic functions work first!

@@ -8,6 +8,5 @@ def read_hero():
     for count, value in enumerate(names):
         print(f"{count + 1}: {value[0]}")
 
-read_hero()
 
 #Add the interactive terminal stuff later. Just make sure the basic functions work first!
