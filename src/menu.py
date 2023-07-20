@@ -4,9 +4,6 @@ from read import read_hero
 from delete import delete_hero
 from update import update_hero
 
-# You can remove the following line as it's already called in the start() function
-# execute_query("SELECT * FROM heroes;")
-
 def start():
     while True:
         print("""
@@ -32,7 +29,7 @@ def menu():
         delete_hero("")
     elif answer == "5":
         print("Goodbye!")
-        exit()  # Exit the program if the user selects 5
+        exit() 
     else:
         print("Invalid choice. Please try again.")
 
