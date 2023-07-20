@@ -35,12 +35,18 @@ Won't:
 CRUD 
 
 Create: A hero 
+create_hero(id, name, about_me, biography, image_url)
+INSERT INTO heroes 
 
-Read: The database 
+Read: The hero and their attributes 
+read_hero()
 
-Update: One of the heros attributes. e.g name, power or whatever
+
+Update: One of the heros attributes. e.g name, about_me or whatever
+update_hero()
 
 Delete: The hero from the database
+delete_hero()
 
 
 
