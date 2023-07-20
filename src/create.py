@@ -10,6 +10,6 @@ def create_hero(name, about_me, biography):
         """
     execute_query(query,(name, about_me, biography))
 
-create_hero("Clayton", "Me Little Strong", "Grocery Manager")
+create_hero("", "", "")
 
 #Add the interactive terminal stuff later. Just make sure the basic functions work first!
