@@ -7,7 +7,14 @@ from update import update_hero
 def start():
     while True:
         print("""
-              So what are ya'll wanting to do? (Pick an option)
+                ____  ______ _____ _____ _   _ 
+               |  _ \|  ____/ ____|_   _| \ | |
+               | |_) | |__ | |  __  | | |  \| |
+               |  _ <|  __|| | |_ | | | | . ` |
+               | |_) | |___| |__| |_| |_| |\  |
+               |____/|______\_____|_____|_| \_|
+                                 
+              So what are ya'll wanting to do? (Enter a number)
               
               1: Create a new hero
               2: View the heroes
@@ -28,10 +35,17 @@ def menu():
     elif answer == "4":
         delete_hero("")
     elif answer == "5":
-        print("Goodbye!")
+        print("""
+             ______     ________ 
+            |  _ \ \   / /  ____|
+            | |_) \ \_/ /| |__   
+            |  _ < \   / |  __|  
+            | |_) | | |  | |____ 
+            |____/  |_|  |______|
+                      """)
         exit() 
     else:
-        print("Invalid choice. Please try again.")
+        print("Nope, try again.")
 
 if __name__ == "__main__":
     start()
