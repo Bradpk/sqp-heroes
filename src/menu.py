@@ -1,8 +1,8 @@
 from database.connection import execute_query, create_connection
 from create import create_hero
 from read import read_hero
-from delete import delete_hero
 from update import update_hero
+from delete import delete_hero
 
 def start():
     while True:
