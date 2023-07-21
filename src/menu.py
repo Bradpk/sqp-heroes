@@ -27,13 +27,13 @@ def start():
 def menu():
     answer = input("Pick a number: ")
     if answer == "1": 
-        create_hero("", "", "")
+        create_hero()
     elif answer == "2":
         read_hero()
     elif answer == "3":
         update_hero()
     elif answer == "4":
-        delete_hero("")
+        delete_hero()
     elif answer == "5":
         print("""
              ______     ________ 

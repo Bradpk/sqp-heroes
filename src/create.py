@@ -1,6 +1,6 @@
 from database.connection import execute_query, create_connection
 
-def create_hero(name, about_me, biography):
+def create_hero():
     name = input("Heroes name? ")
     about_me = input("Tell me about your hero? ")
     biography = input("Write a little bio for your hero? ")

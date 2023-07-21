@@ -1,6 +1,6 @@
 from database.connection import execute_query, create_connection
 
-def delete_hero(hero_name): 
+def delete_hero(): 
     hero_name = input("What is the name of the hero you want to delete? ")
 
     query_check = "SELECT COUNT(*) FROM heroes WHERE name = %s"
