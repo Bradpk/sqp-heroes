@@ -10,5 +10,4 @@ def create_hero(name, about_me, biography):
         """
     execute_query(query,(name, about_me, biography))
 
-
 #Add the interactive terminal stuff later. Just make sure the basic functions work first!
