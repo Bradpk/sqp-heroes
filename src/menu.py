@@ -43,7 +43,7 @@ def menu():
             | |_) | | |  | |____ 
             |____/  |_|  |______|
                       """)
-        exit() 
+        exit()
     else:
         print("Nope, try again.")
 
