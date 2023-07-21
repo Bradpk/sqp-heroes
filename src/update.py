@@ -7,7 +7,7 @@ def update_hero():
     check = "SELECT COUNT(*) FROM heroes WHERE name = %s"
     result = execute_query(check, (current_name,)).fetchone()
 
-    if result[0] == 0:
+    if result [0] == 0:
         print("Not a valid hero name.")
         return
 
