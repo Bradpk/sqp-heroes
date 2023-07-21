@@ -1,11 +1,11 @@
 from database.connection import execute_query, create_connection
 
-def update_hero(current_name, new_name): 
+def update_hero(): 
     current_name = input("What is the name of the hero you want to update? ")
     new_name = input("What do you want their new name to be? ")
 
-    query_check = "SELECT COUNT(*) FROM heroes WHERE name = %s"
-    result = execute_query(query_check, (current_name,)).fetchone()
+    check = "SELECT COUNT(*) FROM heroes WHERE name = %s"
+    result = execute_query(check, (current_name,)).fetchone()
 
     if result[0] == 0:
         print("Not a valid hero name.")

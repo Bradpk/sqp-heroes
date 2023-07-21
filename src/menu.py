@@ -31,7 +31,7 @@ def menu():
     elif answer == "2":
         read_hero()
     elif answer == "3":
-        update_hero("", "")
+        update_hero()
     elif answer == "4":
         delete_hero("")
     elif answer == "5":
