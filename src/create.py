@@ -5,7 +5,7 @@ def create_hero():
     about_me = input("Tell me about your hero? ")
     biography = input("Write a little bio for your hero? ")
     query = """
-        INSERT INTO heroes (name, about_me, biography)
+        INSERT INTO heroes 
         VALUES (%s, %s, %s)
         """
     execute_query(query,(name, about_me, biography))
